@@ -65,7 +65,7 @@ disableSslVerification = false
 [[enforcer.jwtTokenConfig]]
     name="Resident Key Manager"
     issuer = "https://localhost:9443/oauth2/token"
-    certificateAlias = "wso2carbon"
+    certificateAlias = "gateway_certificate_alias"
     # URL of the JWKs endpoint
     jwksURL = ""
     # Validate subscribed APIs
